@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const { createEmployee } = require("../controllers/createEmployee");
-const { getallEmployee } = require("../controllers/getallEmployee");  // Import the new controller
+const { getallEmployee } = require("../controllers/getallEmployee");  
 const { updateEmployee } = require("../controllers/updateEmployee");
 const { deleteEmployee } = require("../controllers/deleteEmployee");
 
